@@ -27,11 +27,12 @@ const Home = () => {
           <h1 
             className="text-8xl md:text-9xl font-black tracking-wider"
             style={{
-              background: `linear-gradient(${shimmer}deg, hsl(180 100% 50%), hsl(320 100% 50%), hsl(45 100% 55%))`,
+              background: `linear-gradient(${shimmer}deg, hsl(180 100% 70%), hsl(320 100% 70%), hsl(45 100% 75%))`,
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
-              filter: "drop-shadow(0 0 20px hsla(180, 100%, 50%, 0.3))",
+              filter: "drop-shadow(0 0 30px hsla(180, 100%, 60%, 0.8)) drop-shadow(0 0 10px hsla(320, 100%, 60%, 0.6))",
+              WebkitTextStroke: "1px hsla(180, 100%, 80%, 0.3)",
             }}
           >
             LIFEQUEST
